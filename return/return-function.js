@@ -1,5 +1,5 @@
 /**
- * @description   Return example in the function JS
+ * @description   Return example in the function JS (ES6)
  * @param         val (int)
  * @return        (int) 
  */
@@ -11,8 +11,8 @@ const multiTwo = val => {
 }
 
 console.log(multiTwo(2)); // 2 * 3 = 6
-console.log(multiTwo(3)); // 3 // only 3
-console.log(multiTwo(4)); // 12
+console.log(multiTwo(3)); // 3 // keep 3
+console.log(multiTwo(4)); // 4 * 3 = 12
 
 ////////////////////////////////////////////////////
 /**
@@ -21,7 +21,7 @@ console.log(multiTwo(4)); // 12
  * @returns       val
  */
 function multiFour(val) {
-  if (val != 4) return val*4;
+  if (val != 4) return val * 4;
   return val;
 }
 
