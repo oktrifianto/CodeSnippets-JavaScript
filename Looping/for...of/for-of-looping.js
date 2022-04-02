@@ -1,0 +1,19 @@
+/** =======================
+ * `for ... of` ––– looping
+ * @see   https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...of
+ * Creates a loop iterating over iterable object
+ */
+const number = [10, 21, 4, 5]
+
+for (const x of number)
+  console.log(x)
+
+/*
+------
+result
+------
+10
+21
+4
+5
+*/
