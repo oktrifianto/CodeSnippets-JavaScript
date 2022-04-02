@@ -17,3 +17,17 @@ result
 4
 5
 */
+
+
+// ========================
+const data = [10, 20, 30];
+for (const value of data){
+  console.log(value);
+}
+
+// result
+/*
+10
+20
+30
+*/
