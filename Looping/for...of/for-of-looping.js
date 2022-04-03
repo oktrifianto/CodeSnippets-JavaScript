@@ -31,3 +31,23 @@ for (const value of data){
 20
 30
 */
+
+
+// ========================
+// Using `let`
+// using let instead const
+// if reassign variable inside the block
+const myData = [30, 40, 50];
+for (let i of myData){
+  i += 2;
+  console.log(i);
+}
+
+// result
+/*
+
+32
+42
+52
+
+*/
