@@ -9,7 +9,7 @@ class Smartphone {
   }
 }
 
-// Instance a class
+// Create an objects 
 const samsung = new Smartphone('Samsung');
 const xiaomi  = new Smartphone('Xiaomi');
 console.log(samsung.owned()) // I have a Samsung phone
