@@ -25,6 +25,6 @@ let duck      = new Animal('WekWekWek');
 
 
 // will responds different ways
-console.log(dog.showSound());
-console.log(chicken.showSound());
-console.log(duck.showSound());
+console.log(dog.showSound()); // Sound is GugGug
+console.log(chicken.showSound()); // Sound is KokKokKok
+console.log(duck.showSound()); // Sound is WekWekWek
