@@ -27,3 +27,10 @@ const number2 = [1, 300, 1000, 232, 83, 87];
 number2.sort((a, b) => a - b );
 console.log(number2);
 // output: [ 1, 83, 87, 232, 300, 1000 ]
+
+
+// How to Sort Descending?
+const number3 = [1, 300, 1000, 232, 83, 87];
+number3.sort((a, b) => a - b).reverse();
+console.log(number3);
+// output: [ 1000, 300, 232, 87, 83, 1 ]
