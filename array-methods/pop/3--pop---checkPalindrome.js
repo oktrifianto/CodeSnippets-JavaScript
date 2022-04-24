@@ -18,9 +18,7 @@ const isPalindrome = val => {
     reverseValue += stack.pop();
   }
 
-  if (reverseValue == NewValue)
-    return true;
-  return false;
+  return (reverseValue === NewValue) ? true : false;
   
   // only checking
   /*
