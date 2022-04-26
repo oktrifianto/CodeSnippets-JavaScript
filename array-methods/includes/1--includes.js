@@ -23,3 +23,16 @@ console.log(data_array.includes(2)); // true
 
 console.log(data_array.includes(5)); // false
 // false : because `5` is not exist in the array
+
+/* ------------ Another Example ------------ */
+const pets = ['chicken', 'cat', 'dog'];
+
+console.log(pets.includes('chicken'));  // true
+
+console.log(pets.includes('bird'));     // false
+
+if (pets.includes('bird')){
+  console.log('Here we go!... Bird!');
+} else {
+  console.log('Thanks!');
+}
