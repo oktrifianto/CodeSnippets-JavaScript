@@ -9,10 +9,15 @@
  *    true or false
  * 
  * @syntax
+ *    ------------------------
  *    includes(searchElement)
  *    includes(searchElement, fromIndex)
- *    ------------
+ *    ------------------------
  *    nb: if searchElement from fromIndex not found => false
+ *    
+ *    Default value 'fromIndex' = 0
+ * 
+ *    includes(searchElement, 0)
  * 
  */
 
