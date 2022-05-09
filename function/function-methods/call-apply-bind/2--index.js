@@ -22,3 +22,6 @@ let name2 = {
 }
 
 printFullName.call(name2, "Dubai", 98733);
+
+// apply method --- passing using array list
+printFullName.apply(name2, ["Dubai", 4382]);
