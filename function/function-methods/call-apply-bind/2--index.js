@@ -9,11 +9,11 @@ let name1 = {
 }
 
 // create function 
-let printFullName = function(city) {
-  console.log(`${this.firstName} ${this.lastName} from ${city}`);
+let printFullName = function(city, zip) {
+  console.log(`${this.firstName} ${this.lastName} from ${city}, ${zip}`);
 }
 
-printFullName.call(name1, "Las Vegas"); // John Erroro
+printFullName.call(name1, "Las Vegas", 19293); // John Erroro
 
 // ---------------- another object ---------
 let name2 = {
@@ -21,4 +21,4 @@ let name2 = {
   lastName : "Cyana"
 }
 
-printFullName.call(name2, "Dubai");
+printFullName.call(name2, "Dubai", 98733);
