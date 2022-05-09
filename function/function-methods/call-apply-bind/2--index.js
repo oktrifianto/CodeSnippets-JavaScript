@@ -25,3 +25,8 @@ printFullName.call(name2, "Dubai", 98733);
 
 // apply method --- passing using array list
 printFullName.apply(name2, ["Dubai", 4382]);
+
+// bind method
+let printMyName = printFullName.bind(name2, "Dubai", 98733);
+console.log(printMyName); // [Function: bound printFullName]
+printMyName(); // Amela Cyana from Dubai, 98733
