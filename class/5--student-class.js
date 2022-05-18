@@ -60,3 +60,34 @@ console.log(s2.getMarks());
 console.log(s2.getAge()); // method called from parent class
 console.log(s3.getMarks());
 console.log('----------------------');
+
+
+/** -------------
+ * Teacher class.
+ * --------------
+ * 
+ * @param {string}  name 
+ * @param {number}  age
+ * @param {string}  gender
+ * @param {string}  subject
+ */
+class Teacher extends Person {
+  constructor(name, age, gender, subject) {
+    super(name, age, gender);
+    this.subject = subject;
+  }
+
+  getSubject() {
+    let g = (this.gender == "male") ? "he" : "she";
+    return `${this.name} is teach '${this.subject}' subject and ${g} is ${this.gender} teacher.`;
+  }
+}
+
+const t1 = new Teacher('Ai', 45, 'female', 'Math');
+const t2 = new Teacher('Koi', 41, 'male', 'English');
+const t3 = new Teacher('Mia', 34, 'female', 'Computer');
+
+console.log(t1.getSubject());
+console.log(t2.getSubject());
+console.log(t3.getSubject());
+console.log('----------------------');
