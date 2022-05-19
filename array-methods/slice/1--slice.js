@@ -24,3 +24,15 @@ console.log(birds.slice(2)); // from array 2 to `end`
 
 console.log(birds.slice(2, 4)); // from array 2 to 4 (array number 4 not included)
 // [ 'duck', 'falcon' ]
+
+console.log(birds.slice(1, 8)); // from array 2 - 8 --- array 8 not exist
+// [ 'dove', 'duck', 'falcon', 'hawk' ]
+
+console.log(birds.slice(2, birds.length));
+// [ 'duck', 'falcon', 'hawk' ]
+
+console.log(birds.slice(-2)); // negative index
+// [ 'falcon', 'hawk' ]
+
+console.log(birds.slice()); // not changed with original array
+// [ 'auk', 'dove', 'duck', 'falcon', 'hawk' ]
