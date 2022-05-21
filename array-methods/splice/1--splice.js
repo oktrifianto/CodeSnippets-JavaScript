@@ -16,7 +16,7 @@
 
 const animals = ['chicken', 'bird', 'tiger'];
 // index :          0         1        2
-animals.splice(1, 0, 'duck'); // insert at index 1
+animals.splice(1, 0, 'duck'); // insert at index 1 and no element removed
 
 console.log(animals);
 // [ 'chicken', 'duck', 'bird', 'tiger' ]
