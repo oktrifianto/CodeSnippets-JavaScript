@@ -30,3 +30,9 @@ let removed3 = fishes3.splice(2, 1, 'catfish');
 console.log(removed3); // [ 'louhan' ]
 console.log(fishes3);  // [ 'piranha', 'eel', 'catfish', 'lobster' ]
 
+// --------- remove 2 element at index 2, and insert one element
+console.log('---------------------------------------');
+let fishes4   = ['piranha', 'eel', 'louhan', 'lobster'];
+let removed4  = fishes4.splice(2, 2, 'catfish');
+console.log(removed4); // [ 'louhan', 'lobster' ]
+console.log(fishes4);  // [ 'piranha', 'eel', 'catfish' ]
