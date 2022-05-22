@@ -36,3 +36,10 @@ let fishes4   = ['piranha', 'eel', 'louhan', 'lobster'];
 let removed4  = fishes4.splice(2, 2, 'catfish');
 console.log(removed4); // [ 'louhan', 'lobster' ]
 console.log(fishes4);  // [ 'piranha', 'eel', 'catfish' ]
+
+// remove 1 element from index -2 ---- negative index
+console.log('---------------------------------------');
+let fishes5   = ['piranha', 'eel', 'louhan', 'lobster'];
+let removed5  = fishes5.splice(-2, 1);
+console.log(removed5); // [ 'louhan' ]
+console.log(fishes5);  // [ 'piranha', 'eel', 'lobster' ]
