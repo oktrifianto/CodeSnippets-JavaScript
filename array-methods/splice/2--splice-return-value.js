@@ -43,3 +43,9 @@ let fishes5   = ['piranha', 'eel', 'louhan', 'lobster'];
 let removed5  = fishes5.splice(-2, 1);
 console.log(removed5); // [ 'louhan' ]
 console.log(fishes5);  // [ 'piranha', 'eel', 'lobster' ]
+
+// remove all element, starting from index 2
+console.log('---------------------------------------');
+let fishes6   = ['piranha', 'eel', 'louhan', 'lobster', 'catfish'];
+let removed6  = fishes6.splice(2);
+console.log(removed6); // [ 'louhan', 'lobster', 'catfish' ]
