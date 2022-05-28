@@ -30,3 +30,14 @@ const n = [1, 2, 3];
 
 const alphaNumeric = l.concat(n);
 console.log(alphaNumeric); // [ 'a', 'b', 'c', 1, 2, 3 ]
+
+
+// -------------------------------- //
+// Concatenating three arrays
+const num1 = [1, 2, 3];
+const num2 = [4, 5, 6];
+const num3 = [7, 8, 9];
+
+const numX = num1.concat(num3, num2);
+
+console.log(numX);
