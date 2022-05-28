@@ -21,3 +21,12 @@ const xc = xa.concat(xb);
 
 console.log(xc);
 // [ 'a', 'b', 'c', 'd', 'e', 'f' ]
+
+
+// -------------------------------- //
+// More example... concatenating two arrays
+const l = ['a', 'b', 'c'];
+const n = [1, 2, 3];
+
+const alphaNumeric = l.concat(n);
+console.log(alphaNumeric); // [ 'a', 'b', 'c', 1, 2, 3 ]
